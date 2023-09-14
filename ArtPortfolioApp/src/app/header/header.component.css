@@ -1,0 +1,28 @@
+.custom-header {
+    background-color: #ff90e8;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 4px 4px 0 #000;
+    height: 30vh; /* 30% of the viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header-content {
+    color: black;
+    margin: 0;
+    font-family: 'Press Start 2P', cursive;
+  }
+  
+  .header-content h1 {
+    margin: 0;
+  }
+  
+  .button-box {
+    margin-top: 20px;
+  }
+
+
+
+  
