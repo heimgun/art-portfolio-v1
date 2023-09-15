@@ -1,17 +1,16 @@
 <div class="project-list">
-    <h2>Projects</h2>
-    <ul>
-      <li *ngFor="let project of projects">
-        <div class="project-image">
-          <img [src]="project.img" alt="{{ project.name }}" />
-        </div>
-        <div class="project-details">
-          <h3>{{ project.name }}</h3>
-          <p>{{ project.date }}</p>
-          <p>{{ project.description }}</p>
-          <a [href]="project.linkToWork" target="_blank">View Work</a>
-        </div>
-      </li>
-    </ul>
-  </div>
-  
+  <h2>Projects</h2>
+  <ul>
+    <li *ngFor="let project of projects">
+      <div class="project-image">
+        <img [src]="project.img" alt="{{ project.name }}" />
+      </div>
+      <div class="project-details">
+        <h3>{{ project.name }}</h3>
+        <p>{{ project.date }}</p>
+        <p>{{ project.description }}</p>
+        <a [href]="project.linkToWork" target="_blank">View Work</a>
+      </div>
+    </li>
+  </ul>
+</div>

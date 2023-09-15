@@ -1,3 +1,3 @@
 export const ServerConfig = {
-  path: 'http://localhost:1337'
-}
+  path: 'http://localhost:1337',
+};

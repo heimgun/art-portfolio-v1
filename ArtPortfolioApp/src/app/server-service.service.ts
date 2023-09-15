@@ -5,13 +5,10 @@ import { IProject } from './models/project.model';
 import { Observable } from 'rxjs';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
-
 export class ServerService {
-
-  constructor(private http: HttpClient) { 
-  }
+  constructor(private http: HttpClient) {}
 
   getProjects(): Observable<IProject[]> {
     return this.http.get<IProject[]>(ServerConfig.path + '/projects');
@@ -21,4 +18,3 @@ export class ServerService {
     return this.http.post<IProject>(ServerConfig.path + '/projects', project);
   }
 }
-
